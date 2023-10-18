@@ -1,0 +1,384 @@
+/* -----top bar css ------ */
+body {
+    /*background: #f8f9fa;*/
+}
+
+.bg-color {
+    background-color:#444;
+    height:65px;
+}
+.top-navbar .contact-num{
+    /*margin-top:20px;*/
+}
+.top-navbar p {
+    color:#fff;
+    font-size: 12px;
+}
+/*.top-navbar .icon ul {*/
+/*    list-style:none;*/
+/*    font-size:20px;*/
+/*    color:#fff;*/
+    
+/*}*/
+/*.top-navbar .icon ul li {*/
+/*    display: inline-block;*/
+/*    padding:8px;*/
+/*}*/
+.top-navbar .icon ul li a i {
+  background-color: #515556;
+  border-radius: 50%;
+  /*border: 1px solid grey;*/
+  padding: 8px;
+  color:#c9f2ff;
+}
+.login-registration-btn a {
+   padding: 10px 30px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    background: #020321;
+    color: #fff;
+    font-size: 16px;
+}
+.login-registration-btn a:hover{
+	background: #515556;
+}
+/*.search-input-box .search-bg {*/
+/*    background: #00a7dc;*/
+/*    width:2%;*/
+/*    height:2%;*/
+/*}*/
+.fav-icon {
+    font-size: 16px;
+}
+.cart-count {
+    color:#fff;
+    font-size: 13px;
+}
+.flash-sale-item {
+     height: 100%; padding: 53px 45px; background-color: #f6dffc; border:1px solid rgba(238, 194, 0, 0.2); border-radius: 10px; box-sizing: border-box; overflow:hidden;
+}
+
+.flash-sale-item .icon{
+    margin-top: -25px; margin-left: -26px;
+}
+.flash-sale-item .icon i {
+    font-size:26px; font-weight: bolder; color:#eec200;
+}
+.flash-sale-item .text {
+    margin-left: -26px; margin-top: 20px;
+}
+.flash-sale-item .text .fla-s {
+    font-size:25px; font-weight:bold;
+    
+}
+.flash-sale-item .text .p-text{
+    font-size:16px;
+    color:#5a7184;
+    margin-top: 20px;
+    
+}
+#clockdiv {
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 14px;
+}
+#clockdiv div > span {
+    border-radius: 6px;
+    background: #454f5b;
+    display: inline-block;
+    width: 35px;
+}
+#clockdiv div > b.colon{
+    font-size: 20px; color: #454f5b; padding: 2px;
+}
+.item {
+      height: 100%; border:1px solid #eec200; border-radius: 10px; box-sizing: border-box; overflow:hidden;
+}
+.item .name-taka p.watch {
+    padding-left: 15px;
+    font-size: 16px;
+    text-decoration: underline;
+    color: #000;
+}
+.item .name-taka p.taka {
+    padding-left: 15px;
+    font-size: 16px;
+    color: #25bdee;
+}
+.social-icon {
+    padding-left: 15px;
+}
+.social-icon span.hours {
+    padding:4px;
+    color:#fff;
+    /*font-weight:bold;*/
+    border-radius: 5px 0px 0px 5px;
+    background: #25bdee;
+    display: inline-block;
+    width: 35px;
+    margin-right:2px;
+}
+.social-icon span.minutes {
+    padding:4px;
+    color:#fff;
+    /*font-weight:bold;*/
+    border-radius: 0px 5px 5px 0px;
+    background: #25bdee;
+    display: inline-block;
+    width: 35px;
+}
+.btn-clss {
+    /*padding: 8px;*/
+    border: none;
+    margin-bottom: 1px;
+    background: #25bdee;
+    color:#fff;
+    border-radius: 5px;
+    margin-left: 7px
+}
+.btn-sm {
+   padding: 0.316rem 1rem; 
+}
+.arrow {
+    border: 1px solid #eee;
+    border-radius: 50%;
+    background: #fff;
+    padding: 15px 20px;
+    text-align: center;
+    margin-top: 155px;
+}
+.easier {
+    margin-bottom: 40px;
+}
+.easier-to-choose .easier span.easi-text {
+    /*font-family:ariel;*/
+    font-weight:bolder;
+    font-size:30px;
+    color:#212121;
+}
+.easier-to-choose .easier span.btn-feature {
+    margin-top: -10px;
+    background: #e7e1ed;
+    border:none;
+    color:#52057b;
+    font-weight:bold;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+/*------ popular css --------*/
+.easier-to-choose .popular {
+    /*background: #b73fde;*/
+    background-image: linear-gradient(202deg, #8e00bd, #df79ff);
+    border-radius: 10px;
+    padding:30px;
+    height:100%;
+}
+.easier-to-choose .popular .popular-icon {
+    background: #cb78e6;
+    border-radius: 10px;
+    padding: 13px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    box-shadow: 0.1 0.2px 0.2px 0.2px #aaa;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.easier-to-choose .popular .popular-text {
+    margin-left: 20px;
+    color: #fff;
+    font-size: 22px;
+
+}
+.easier-to-choose .popular .two-div {
+    margin-top: 55px;
+    color: #fff;
+}
+.easier-to-choose .popular .two-div .stock {
+    margin-left:150px;
+}
+
+/*------- most wanted css -----------*/
+
+.easier-to-choose .most-wanted {
+    background-image: linear-gradient(60deg, #4cc3cc, #0ba49f);
+    border-radius: 10px;
+    padding:30px;
+    height:100%;
+}
+.easier-to-choose .most-wanted .most-wanted-icon {
+    background: #4dcbc9;
+    border-radius: 10px;
+    padding: 13px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    box-shadow: 0.1 0.2px 0.2px 0.2px #aaa;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.easier-to-choose .most-wanted .most-wanted-text {
+    margin-left: 20px;
+    color: #fff;
+    font-size: 22px;
+
+}
+.easier-to-choose .most-wanted .two-div {
+    margin-top: 55px;
+    color: #fff;
+}
+.easier-to-choose .most-wanted .two-div .most-wanted-stock {
+    margin-left:150px;
+}
+
+/*------- Best seller css -----------*/
+
+.easier-to-choose .bestseller {
+    background-image: linear-gradient(60deg, #fe8900, #f83900);
+    border-radius: 10px;
+    padding:30px;
+    height:100%;
+}
+.easier-to-choose .bestseller .bestseller-icon {
+    background: #fd9d3f;
+    border-radius: 10px;
+    padding: 13px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    box-shadow: 0.1 0.2px 0.2px 0.2px #aaa;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.easier-to-choose .bestseller .bestseller-text {
+    margin-left: 20px;
+    color: #fff;
+    font-size: 22px;
+
+}
+.easier-to-choose .bestseller .two-div {
+    margin-top: 55px;
+    color: #fff;
+}
+.easier-to-choose .bestseller .two-div .bestseller-stock {
+    margin-left:150px;
+}
+
+/*------- Best shop css -----------*/
+
+.easier-to-choose .bestshop {
+   background-image: linear-gradient(60deg, #f857a3, #ff585a);
+    border-radius: 10px;
+    padding:30px;
+    height:100%;
+}
+.easier-to-choose .bestshop .bestshop-icon {
+    background: #fa80af;
+    border-radius: 10px;
+    padding: 13px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    box-shadow: 0.1 0.2px 0.2px 0.2px #aaa;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.easier-to-choose .bestshop .bestshop-text {
+    margin-left: 20px;
+    color: #fff;
+    font-size: 22px;
+
+}
+.easier-to-choose .bestshop .two-div {
+    margin-top: 55px;
+    color: #fff;
+}
+.easier-to-choose .bestshop .two-div .bestshop-stock {
+    margin-left:150px;
+}
+.feature-item a.blue-text:hover {
+    text-decoration:none;
+}
+
+.flash-sale-item .women-clothing img {
+    margin-left: -61px;
+    height: 100%;
+    width: 318px;
+    border: 1px solid #e7bb38;
+    border-radius: 8px;
+}
+
+
+
+
+/*-------------- best selling css ------------*/
+
+.product-bg {
+    background-color: #fff!important;
+    border: 1px solid #e7bb38;
+    border-radius: 10px;
+}
+
+
+
+.payments_image img{
+   
+}
+
+
+
+
+
+
+
+
+/* -------- up arrow css -----------*/
+
+.up-arrow  {
+    position: relative;
+    /* right: 40px; */
+    /* bottom: 18%; */
+    border-radius: 10px;
+    transform: translateY(-50%);
+    background: #00a7dc;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    width: 70%;
+    height: 20%;
+    top: 124px;
+    left: 255px;
+}
+.up-arrow a {
+    /*color: #000;*/
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 4px;
+    cursor:pointer;
+}
+
+.lginb {
+    padding: 1px 7px;
+    border-radius: 5px;
+    background: #eec200;
+    color: #fff;
+}
+.bg-cover .card-body img.img-fit {
+    background: #eec200; 
+}
